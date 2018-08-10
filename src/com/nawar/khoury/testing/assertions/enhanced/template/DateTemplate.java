@@ -16,7 +16,7 @@ public class DateTemplate extends Template
 			length = length - 2;
 		
 		if(expectation.contains("Z"))
-			length = length + 5;
+			length = length + 4;
 		
 		return length;
 	}
